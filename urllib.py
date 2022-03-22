@@ -9,12 +9,12 @@ def valid_url(url): # checking if the url is valid
         print('invalid url')
 
 def url_schema(url):
-    ulp=valid_url(url)
+    ulp=valid_url(url)# this is actually the splitted list from the url
     schema=ulp[0]
     return(schema)
 
 def base_url(url):
-    ulp=valid_url(url)
+    ulp=valid_url(url)# this is actually the splitted list from the url
     base_url=ulp[2]
     return base_url
 
